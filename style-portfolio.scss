@@ -1,0 +1,389 @@
+@font-face {
+    font-family: "Gilroy Light";
+    src: url("//db.onlinewebfonts.com/t/0744a43ed7aac352ec78c1404c890d72.eot");
+    src: url("//db.onlinewebfonts.com/t/0744a43ed7aac352ec78c1404c890d72.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/0744a43ed7aac352ec78c1404c890d72.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/0744a43ed7aac352ec78c1404c890d72.woff") format("woff"), url("//db.onlinewebfonts.com/t/0744a43ed7aac352ec78c1404c890d72.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/0744a43ed7aac352ec78c1404c890d72.svg#Gilroy Light") format("svg");
+}
+@font-face {
+    font-family: "Gilroy ExtraBold"; 
+    src: url("//db.onlinewebfonts.com/t/00d5a78493aed4b11e2584ad7cceee49.eot"); 
+    src: url("//db.onlinewebfonts.com/t/00d5a78493aed4b11e2584ad7cceee49.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/00d5a78493aed4b11e2584ad7cceee49.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/00d5a78493aed4b11e2584ad7cceee49.woff") format("woff"), url("//db.onlinewebfonts.com/t/00d5a78493aed4b11e2584ad7cceee49.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/00d5a78493aed4b11e2584ad7cceee49.svg#Gilroy ExtraBold") format("svg"); 
+}
+
+$dark_grey: #4d4d4d;
+$yellow: #F4C430;
+$light_grey: #F5F6F7;
+$width:1366px;
+$font-family: Gilroy Light;
+$bold: Gilroy ExtraBold; 
+
+body{
+    max-width: 1920px;
+    margin: 0 auto;
+    font-family: $font-family;
+}
+
+nav{
+    margin: 0 auto;
+    background-color: $dark_grey;
+    opacity: 85%;
+}
+nav>div{
+    max-width: $width;
+    margin:auto;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+header>img{
+    margin-top: -5%;
+    margin-left: -17px;
+}
+.navbar-brand{
+    margin-left: -14px;
+}
+.navbar-nav{
+    margin-right: -8px;
+}
+
+.list{
+    color: $light_grey;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: capitalize;
+    display: block;
+}
+.list:hover{
+    color: $yellow;
+    border: solid 2px $yellow;
+    padding: 5px 8px 5px 8px;
+    display: block;
+    text-decoration: none;
+}
+.first {
+    max-width: $width;
+    margin: auto;
+    padding-bottom: 45px;
+    padding-top: 29px;
+    
+}
+.second{
+    padding-top: 0;
+    padding-bottom: 4%;
+}
+section:nth-child(2){
+    margin-top: 184px;
+}
+.gallery{
+    width: 100%;
+}
+.next{
+    margin-top: -3%;
+}
+.project-name {
+    font-family: $bold;
+    text-transform: capitalize;
+    margin-left: 17%;
+    font-size: 28px;
+    padding-top: 36px;
+    color: $light_grey;
+
+}
+.paragraph{
+    text-align: center;
+    width: 85%;
+    font-size: 14px;
+    color:$light_grey;
+    margin-left: 8.5%;
+    font-family: $font-family;
+}
+.data{
+    margin-left: 46%;
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: $bold;
+    padding-bottom: 36px;
+    color: $light_grey;
+}
+.title{
+    background-color: $dark_grey;
+    width: 100%;
+}
+
+footer{
+    background-color: $dark_grey;
+}
+.olinetas{
+    margin-top: -4px;
+}
+.fa-copyright{
+    padding-left: 0;
+    font-size: 14px;
+}
+.last{
+    max-width: $width;
+    padding-top: 27px;
+    padding-bottom: 3px;
+    color: $light_grey;
+    font-family: $font-family;
+    font-size: 14px;
+}
+.float-right{
+    margin-left: 86.5%;
+}
+i{
+    padding-left: 27px;
+    font-size: 14px;
+}
+
+@media only screen and (max-width: 1200px){
+
+     section:nth-child(2){
+        margin-top: 184px;
+        margin-right: -58%;
+    }
+    
+       section:nth-child(3){
+        margin-right: -58%;
+    }
+
+    footer{
+        margin-top: 0;
+        margin-right: -58%;
+    }
+}
+
+@media only screen and (max-width: 1024px){
+
+    section:nth-child(2){
+        margin-top: 184px;
+        margin-right: -86%;
+    }
+
+    section:nth-child(3){
+        margin-right: -86%;
+    }
+    .second{
+        padding-top: 0;
+    }
+    footer{
+        margin-top: 0;
+        margin-right: -86%;
+    }
+}
+
+@media only screen and (max-width: 900px){
+
+    section:nth-child(2){
+        margin-top: 184px;
+        margin-right: -112%;
+    }
+    section:nth-child(3){
+        margin-right: -112%;
+    }
+    .col-md-6{
+        margin-right: -228px;
+    }
+    .second{
+        padding-top: 0;
+    }
+    
+    footer{
+        margin-top: 0;
+        margin-right: -112%;
+    }
+}
+
+@media only screen and (max-width: 768px){
+
+    section:nth-child(2){
+        margin-top: 184px;
+        margin-right: -148%;
+    }
+    section:nth-child(3){
+        margin-right: -148%;
+    }
+    footer{
+        margin-top: 0;
+        margin-right: -148%;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .navbar{
+        margin-left: 0%;
+    }
+    section:nth-child(2){
+        margin-top: 184px;
+        margin-right: -218%;
+    }
+    section:nth-child(3){
+        margin-right: -218%;
+    }
+    .project-name{
+        text-align: center;
+        margin-left: 0%;
+        font-size: 50px;
+    }
+    .paragraph{
+        width: 75%;
+        font-size: 30px;
+    }
+    .data{
+        margin-left: 47%;
+        font-size: 25px;
+    }
+    .second{
+        padding-top: 0;
+    }
+    .title{
+        margin-top: -2%;
+        margin-bottom: 10%;
+    }
+    
+    footer{
+        margin-top: 0;
+        margin-right: -302%;
+    }
+    .fa-copyright{
+        margin-top: 5px;
+    }
+    .olinetas{
+        margin-left: -8.5%;
+    }
+    .fa-instagram{
+        margin-left: -60px;
+    }
+    footer{
+        margin-top: 0;
+        margin-right: -218%;
+    }
+    .olinetas{
+        margin-left: 0.5%;
+        margin-top: 0%;
+    }
+    .float-right{
+        margin-left: 90%;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    .navbar-brand{
+        margin-left: 40%;
+    }
+    .navbar-toggler{
+        margin-right: 10%;
+    }
+    .navbar-nav{
+        margin-left: 81.5%;
+    }
+    a>img{
+        width: 490%;
+    }
+    .fa-bars {
+        font-size: 75px;
+    }
+    div > p {
+        font-size: 35px;
+    }
+    section:nth-child(2){
+        margin-top: 184px;
+        margin-right: -300%;
+    }
+    section:nth-child(3){
+        margin-right: -300%;
+    }
+
+    .project-name{
+        font-size: 65px;
+    }
+    .paragraph{
+        width: 85%;
+    }
+    .data{
+        margin-left: 47%;
+        font-size: 35px;
+    }
+    .second{
+        padding-top: 0;
+    }
+   
+    footer{
+        margin-top: 0;
+        margin-right: -302%;
+    }
+    .last{
+        padding-top: 2%;
+    }
+    .fa-copyright{
+        margin-top: 5px;
+    }
+    .olinetas{
+        margin-left: 0.5%;
+        margin-top: -5px;
+        font-size: 24px;
+    }
+    .float-right{
+        margin-left: 87%;
+    }
+}
+@media only screen and (max-width: 320px){
+    .navbar-brand{
+        margin-left: 40%;
+    }
+    .navbar-toggler{
+        margin-right: 10%;
+    }
+    .navbar-nav{
+        margin-left: 81.5%;
+    }
+    a>img{
+        width: 490%;
+    }
+    .fa-bars {
+        font-size: 75px;
+    }
+    div > p {
+        font-size: 45px;
+    }
+    section:nth-child(2){
+        margin-top: 184px;
+        margin-right: -300%;
+    }
+    section:nth-child(3){
+        margin-right: -300%;
+    }
+    
+    .project-name{
+        font-size: 65px;
+    }
+    .paragraph{
+        width: 75%;
+        font-size: 40px;
+    }
+    .data{
+        margin-left: 47%;
+        font-size: 30px;
+    }
+    .second{
+        padding-top: 0;
+    }
+    footer{
+        margin-top: 0;
+        margin-right: -302%;
+        padding-right: 20%;
+        padding-left: 10%;
+    }
+    .last{
+        padding-top: 3%;
+    }
+    .fa-copyright{
+        margin-top: 5px;
+    }
+    .olinetas{
+        margin-left: 0.5%;
+        margin-top: -8px;
+    }
+    .float-right{
+        margin-left: 89%;
+    }
+}

@@ -1,0 +1,261 @@
+@font-face {
+  font-family: "Gilroy Light";
+  src: url("//db.onlinewebfonts.com/t/0744a43ed7aac352ec78c1404c890d72.eot");
+  src: url("//db.onlinewebfonts.com/t/0744a43ed7aac352ec78c1404c890d72.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/0744a43ed7aac352ec78c1404c890d72.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/0744a43ed7aac352ec78c1404c890d72.woff") format("woff"), url("//db.onlinewebfonts.com/t/0744a43ed7aac352ec78c1404c890d72.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/0744a43ed7aac352ec78c1404c890d72.svg#Gilroy Light") format("svg");
+}
+@font-face {
+  font-family: "Gilroy ExtraBold";
+  src: url("//db.onlinewebfonts.com/t/00d5a78493aed4b11e2584ad7cceee49.eot");
+  src: url("//db.onlinewebfonts.com/t/00d5a78493aed4b11e2584ad7cceee49.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/00d5a78493aed4b11e2584ad7cceee49.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/00d5a78493aed4b11e2584ad7cceee49.woff") format("woff"), url("//db.onlinewebfonts.com/t/00d5a78493aed4b11e2584ad7cceee49.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/00d5a78493aed4b11e2584ad7cceee49.svg#Gilroy ExtraBold") format("svg");
+}
+body {
+  max-width: 1920px;
+  margin: 0 auto;
+  font-family: Gilroy Light;
+}
+
+nav {
+  margin: 0 auto;
+  background-color: #4d4d4d;
+  opacity: 85%;
+}
+
+nav > div {
+  max-width: 1366px;
+  margin: auto;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+.navbar-brand {
+  margin-left: -14px;
+}
+
+.navbar-nav {
+  margin-right: -8px;
+}
+
+header > img {
+  margin-top: -5%;
+  margin-left: -17px;
+}
+
+.list {
+  color: #F5F6F7;
+  font-weight: bold;
+  font-size: 16px;
+  text-transform: capitalize;
+  display: block;
+}
+
+.list:hover {
+  color: #F4C430;
+  border: solid 2px #F4C430;
+  padding: 5px 8px 5px 8px;
+  display: block;
+  text-decoration: none;
+}
+
+.first {
+  max-width: 1366px;
+  margin: auto;
+}
+
+.about-us {
+  text-transform: capitalize;
+  font-size: 30px;
+  color: #4d4d4d;
+  font-family: Gilroy ExtraBold;
+  text-align: center;
+  padding-top: 184px;
+}
+
+.answers {
+  margin-top: 85px;
+  text-align: center;
+  background-color: #D8D9D7;
+  font-size: 24px;
+  color: #4d4d4d;
+}
+
+.question {
+  font-family: Gilroy ExtraBold;
+  padding-top: 50px;
+  font-size: 28px;
+}
+
+.answer {
+  font-family: Gilroy;
+  padding-top: 25px;
+  padding-bottom: 50px;
+  width: 95%;
+  padding-left: 50px;
+}
+
+footer {
+  background-color: #4d4d4d;
+}
+
+.olinetas {
+  margin-top: -4px;
+}
+
+.fa-copyright {
+  padding-left: 0;
+  font-size: 14px;
+}
+
+.last {
+  margin-top: 85px;
+  max-width: 1366px;
+  padding-top: 27px;
+  padding-bottom: 3px;
+  color: #F5F6F7;
+  font-family: Gilroy Light;
+  font-size: 14px;
+}
+
+.float-right {
+  margin-left: 86.5%;
+}
+
+i {
+  padding-left: 27px;
+  font-size: 14px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .answers {
+    margin-left: 2px;
+    margin-right: 2px;
+  }
+
+  .float-right {
+    margin-left: 84.5%;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .answers {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .answer {
+    width: 93%;
+  }
+
+  .float-right {
+    margin-left: 81.5%;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .answers {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .answer {
+    width: 92%;
+  }
+
+  .float-right {
+    margin-left: 79.5%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .answers {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .answer {
+    width: 91%;
+  }
+
+  .float-right {
+    margin-left: 75.5%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .answers {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .answer {
+    width: 90%;
+  }
+
+  .float-right {
+    margin-left: 68.5%;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .navbar-toggler {
+    margin-right: 3%;
+  }
+
+  .fa-bars {
+    font-size: 40px;
+    padding-left: 8px;
+  }
+
+  .navbar-nav {
+    margin-left: 81%;
+  }
+
+  .about-us {
+    font-size: 28px;
+    padding-left: 5%;
+  }
+
+  .answers {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+
+  .answer {
+    width: 89%;
+  }
+
+  .float-right {
+    margin-left: 60.5%;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .navbar-toggler {
+    margin-right: 1%;
+  }
+
+  .fa-bars {
+    font-size: 40px;
+    padding-left: 8px;
+  }
+
+  .navbar-nav {
+    margin-left: 81%;
+  }
+
+  .about-us {
+    font-size: 27px;
+    padding-left: 8%;
+    width: 98%;
+  }
+
+  .answers {
+    margin-left: 0px;
+    margin-right: -22px;
+  }
+
+  .answer {
+    width: 89%;
+  }
+
+  footer {
+    margin-right: -7%;
+  }
+
+  .float-right {
+    margin-left: 42.5%;
+  }
+}

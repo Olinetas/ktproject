@@ -1,0 +1,1133 @@
+@font-face {
+  font-family: "Gilroy Light";
+  src: url("//db.onlinewebfonts.com/t/0744a43ed7aac352ec78c1404c890d72.eot");
+  src: url("//db.onlinewebfonts.com/t/0744a43ed7aac352ec78c1404c890d72.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/0744a43ed7aac352ec78c1404c890d72.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/0744a43ed7aac352ec78c1404c890d72.woff") format("woff"), url("//db.onlinewebfonts.com/t/0744a43ed7aac352ec78c1404c890d72.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/0744a43ed7aac352ec78c1404c890d72.svg#Gilroy Light") format("svg");
+}
+@font-face {
+  font-family: "Gilroy ExtraBold";
+  src: url("//db.onlinewebfonts.com/t/00d5a78493aed4b11e2584ad7cceee49.eot");
+  src: url("//db.onlinewebfonts.com/t/00d5a78493aed4b11e2584ad7cceee49.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/00d5a78493aed4b11e2584ad7cceee49.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/00d5a78493aed4b11e2584ad7cceee49.woff") format("woff"), url("//db.onlinewebfonts.com/t/00d5a78493aed4b11e2584ad7cceee49.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/00d5a78493aed4b11e2584ad7cceee49.svg#Gilroy ExtraBold") format("svg");
+}
+body {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
+section {
+  font-family: Gilroy Light;
+}
+
+nav {
+  margin: 0 auto;
+  background-color: #4d4d4d;
+  opacity: 85%;
+}
+
+nav > div {
+  max-width: 1366px;
+  margin: auto;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+header > img {
+  margin-top: -5%;
+  margin-left: -17px;
+}
+
+.navbar-brand {
+  margin-left: -14px;
+}
+
+.navbar-nav {
+  margin-right: -8px;
+}
+
+.list {
+  color: #F5F6F7;
+  font-weight: bold;
+  font-size: 16px;
+  text-transform: capitalize;
+  display: block;
+}
+
+.list:hover {
+  color: #F4C430;
+  border: solid 2px #F4C430;
+  padding: 5px 8px 5px 8px;
+  display: block;
+  text-decoration: none;
+}
+
+section:nth-child(2) {
+  background-color: #F5F6F7;
+  margin-top: 132px;
+  margin-bottom: 116px;
+}
+
+.first {
+  max-width: 1366px;
+  margin: auto;
+  padding-bottom: 45px;
+  padding-top: 29px;
+}
+
+.our-team {
+  text-transform: capitalize;
+  font-size: 40px;
+  color: #4d4d4d;
+  font-family: Gilroy ExtraBold;
+}
+
+div > p {
+  width: 115%;
+}
+
+.team-image {
+  padding-top: 16px;
+  padding-right: 12px;
+}
+
+.team {
+  margin: 0;
+  left: 15%;
+}
+
+.second {
+  padding-top: 0;
+  padding-bottom: 4%;
+}
+
+.gallery {
+  width: 100%;
+}
+
+.project-name {
+  font-family: Gilroy ExtraBold;
+  text-transform: capitalize;
+  margin-left: 17%;
+  font-size: 28px;
+  padding-top: 36px;
+  color: #F5F6F7;
+}
+
+.paragraph {
+  text-align: center;
+  width: 85%;
+  font-size: 14px;
+  color: #F5F6F7;
+  margin-left: 8.5%;
+  font-family: Gilroy Light;
+}
+
+.data {
+  margin-left: 46%;
+  font-size: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: Gilroy ExtraBold;
+  padding-bottom: 36px;
+  color: #F5F6F7;
+}
+
+.title {
+  background-color: #4d4d4d;
+  width: 100%;
+}
+
+.portfolio {
+  padding: 18px 143px 18px 141px;
+  color: #F4C430;
+  border: solid 5px #F4C430;
+  border-radius: 5px;
+  text-transform: capitalize;
+  background-color: white;
+}
+
+.position-absolute {
+  margin-top: -73%;
+  margin-left: 7%;
+}
+
+.feedbacks-background {
+  width: 100%;
+}
+
+.fa-user {
+  color: #F5F6F7;
+  background-color: #4d4d4d;
+  padding: 3%;
+  border-radius: 50%;
+}
+
+.feedback {
+  width: 80%;
+  padding-top: 45px;
+  font-size: 20px;
+  color: #F5F6F7;
+  font-family: Gilroy Light;
+}
+
+.name {
+  margin-left: 55px;
+  position: absolute;
+  margin-top: 4px;
+  font-size: 20px;
+  font-family: Gilroy ExtraBold;
+  color: #F5F6F7;
+  text-transform: capitalize;
+}
+
+.fa-clock {
+  font-size: 14px;
+  color: #4d4d4d;
+  margin-top: 104px;
+  margin-left: -25px;
+}
+
+.time {
+  margin-left: 25px;
+  position: absolute;
+  margin-top: 100px;
+  font-size: 14px;
+  color: #F5F6F7;
+  font-family: Gilroy ExtraBold;
+}
+
+.more-feedbacks {
+  margin-top: 80px;
+  margin-left: 34.5%;
+  font-family: Gilroy ExtraBold;
+}
+
+.button {
+  padding: 18px 122px 18px 141px;
+  color: #F4C430;
+  border: solid 5px #F4C430;
+  border-radius: 5px;
+  text-transform: capitalize;
+  background-color: white;
+}
+
+.button:hover {
+  background-color: #F4C430;
+  color: #F5F6F7;
+  border-color: #F4C430;
+}
+
+.services {
+  max-width: 1366px;
+  margin: auto;
+  padding-bottom: 45px;
+}
+
+.second-paragraph {
+  width: 105%;
+  font-family: Gilroy Light;
+  color: #4d4d4d;
+  padding-top: 18px;
+  font-size: 20px;
+}
+
+.last-paragraph {
+  font-size: 14px;
+  width: 96%;
+  padding-top: 18px;
+}
+
+.card {
+  margin-left: 16px;
+  text-align: center;
+}
+
+.packages {
+  margin-left: 39.5%;
+  margin-top: 192px;
+}
+
+.cards {
+  margin-left: 16px;
+  margin-top: -24%;
+  width: 12rem;
+}
+
+.card-body {
+  background-color: #F5F6F7;
+}
+
+.card-title {
+  font-size: 40px;
+  margin-top: 55px;
+  font-family: Gilroy ExtraBold;
+  padding-left: 19%;
+  padding-right: 61px;
+}
+
+.card-title-huge-number {
+  font-size: 40px;
+  margin-top: 55px;
+  font-family: Gilroy ExtraBold;
+  padding-left: 12%;
+  padding-right: 61px;
+}
+
+.card-text {
+  margin-top: 113px;
+  margin-bottom: 94px;
+  font-family: Gilroy Light;
+  font-size: 14px;
+  width: 60%;
+  margin-left: 20%;
+  text-align: center;
+}
+
+.price {
+  display: flex;
+}
+
+.contact-button {
+  background-color: #F4C430;
+  border-color: #F4C430;
+  text-transform: uppercase;
+  font-size: 10px;
+  font-family: Gilroy ExtraBold;
+  color: #F5F6F7;
+  padding: 14px 10px;
+  border-radius: 5px;
+  border-style: none;
+  margin-left: 14%;
+}
+
+.our-services {
+  margin-top: 260px;
+  font-family: Gilroy ExtraBold;
+  color: #4d4d4d;
+  font-size: 40px;
+  text-transform: capitalize;
+}
+
+footer {
+  background-color: #4d4d4d;
+}
+
+.olinetas {
+  margin-top: -4px;
+}
+
+.fa-copyright {
+  padding-left: 0;
+  font-size: 14px;
+}
+
+.last {
+  margin-top: 85px;
+  max-width: 1366px;
+  padding-top: 27px;
+  padding-bottom: 3px;
+  color: #F5F6F7;
+  font-family: Gilroy Light;
+  font-size: 14px;
+}
+
+.float-right {
+  margin-left: 86.5%;
+}
+
+i {
+  padding-left: 27px;
+  font-size: 14px;
+}
+
+@media only screen and (max-width: 1200px) {
+  section:nth-child(2) {
+    margin-top: 132px;
+    margin-right: -58%;
+  }
+
+  div > p {
+    width: 115%;
+  }
+
+  .team-image {
+    padding-top: 16px;
+    padding-right: 12px;
+    width: 25%;
+  }
+
+  .team {
+    margin: 0;
+    left: 16.5%;
+  }
+
+  section:nth-child(3) {
+    margin-top: 132px;
+    margin-right: -58%;
+  }
+
+  .second {
+    padding-top: 0;
+  }
+
+  section:nth-child(4) {
+    margin-top: 0;
+    margin-right: -58%;
+  }
+
+  section:nth-child(5) {
+    margin-top: 0;
+    margin-right: -58%;
+  }
+
+  footer {
+    margin-top: 0;
+    margin-right: -58%;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  section:nth-child(2) {
+    margin-top: 132px;
+    margin-right: -86%;
+  }
+
+  div > p {
+    width: 115%;
+  }
+
+  .team-image {
+    padding-top: 16px;
+    padding-right: 12px;
+    width: 25%;
+  }
+
+  .team {
+    margin: 0;
+    left: 16.5%;
+  }
+
+  section:nth-child(3) {
+    margin-top: 132px;
+    margin-right: -86%;
+  }
+
+  .second {
+    padding-top: 0;
+  }
+
+  section:nth-child(4) {
+    margin-top: 0;
+    margin-right: -86%;
+  }
+
+  section:nth-child(5) {
+    margin-top: 0;
+    margin-right: -86%;
+  }
+
+  footer {
+    margin-top: 0;
+    margin-right: -86%;
+  }
+}
+@media only screen and (max-width: 900px) {
+  section:nth-child(2) {
+    margin-top: 132px;
+    margin-right: -112%;
+  }
+
+  div > p {
+    width: 115%;
+  }
+
+  .team-image {
+    padding-top: 16px;
+    padding-right: 12px;
+    width: 25%;
+  }
+
+  .team {
+    margin: 0;
+    left: 16.5%;
+  }
+
+  section:nth-child(3) {
+    margin-top: 132px;
+    margin-right: -112%;
+  }
+
+  .col-md-6 {
+    margin-right: -228px;
+  }
+
+  .second {
+    padding-top: 0;
+  }
+
+  .fa-user {
+    width: 9%;
+  }
+
+  .position-relative {
+    width: 65%;
+  }
+
+  .position-absolute {
+    width: 60%;
+    margin-top: -46%;
+  }
+
+  .fa-clock {
+    margin-top: 82px;
+  }
+
+  .time {
+    margin-top: 80px;
+  }
+
+  .more-feedbacks {
+    margin-top: 80px;
+    margin-left: 34.5%;
+    font-family: Gilroy ExtraBold;
+  }
+
+  section:nth-child(4) {
+    margin-top: 0;
+    margin-right: -112%;
+  }
+
+  section:nth-child(5) {
+    margin-top: 0;
+    margin-right: -112%;
+  }
+
+  footer {
+    margin-top: 0;
+    margin-right: -112%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  section:nth-child(2) {
+    margin-top: 132px;
+    margin-right: -148%;
+  }
+
+  div > p {
+    width: 115%;
+  }
+
+  .team-image {
+    padding-top: 16px;
+    padding-right: 12px;
+    width: 25%;
+  }
+
+  .team {
+    margin: 0;
+    left: 16.5%;
+  }
+
+  section:nth-child(3) {
+    margin-top: 132px;
+    margin-right: -148%;
+  }
+
+  section:nth-child(4) {
+    margin-top: 0;
+    margin-right: -148%;
+  }
+
+  section:nth-child(5) {
+    margin-top: 0;
+    margin-right: -148%;
+  }
+
+  footer {
+    margin-top: 0;
+    margin-right: -148%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .navbar {
+    margin-left: 0%;
+  }
+
+  section:nth-child(2) {
+    margin-top: 132px;
+    margin-right: -218%;
+  }
+
+  div > p {
+    width: 115%;
+    font-size: 24px;
+  }
+
+  .team-image {
+    padding-top: 16px;
+    padding-right: 12px;
+    width: 25%;
+  }
+
+  .our-team {
+    text-align: center;
+    padding-top: 2%;
+    font-size: 50px;
+  }
+
+  div > p {
+    width: 93%;
+    text-align: center;
+    padding-left: 9%;
+    margin-top: 2%;
+    margin-bottom: 3%;
+  }
+
+  .team {
+    margin: 0;
+    left: 12.5%;
+    margin-bottom: 2%;
+  }
+
+  section:nth-child(3) {
+    margin-top: 132px;
+    margin-right: -218%;
+  }
+
+  .project-name {
+    text-align: center;
+    margin-left: 0%;
+    font-size: 50px;
+  }
+
+  .paragraph {
+    width: 75%;
+    font-size: 30px;
+  }
+
+  .data {
+    margin-left: 0;
+    font-size: 25px;
+  }
+
+  .second {
+    padding-top: 0;
+  }
+
+  .title {
+    margin-top: -2%;
+    margin-bottom: 10%;
+  }
+
+  section:nth-child(4) {
+    margin-top: 0;
+    margin-right: -215%;
+  }
+
+  .position-relative {
+    margin-left: 18%;
+    padding-top: 8%;
+  }
+
+  .position-absolute {
+    margin-top: -45%;
+  }
+
+  .fa-user {
+    margin-left: 32%;
+    width: 8%;
+    font-size: 20px;
+  }
+
+  .name {
+    margin-left: 17%;
+    margin-top: 0%;
+    font-size: 40px;
+  }
+
+  .feedback {
+    width: 71%;
+    margin-left: 24%;
+    margin-top: 3%;
+    text-align: left;
+    font-size: 35px;
+  }
+
+  .fa-clock {
+    margin-top: 15%;
+    margin-left: 30%;
+    font-size: 30px;
+  }
+
+  .time {
+    margin-top: 14.7%;
+    margin-left: -7%;
+    font-size: 24px;
+  }
+
+  .more-feedbacks {
+    margin-left: 32%;
+    font-size: 24px;
+  }
+
+  section:nth-child(5) {
+    margin-top: 0;
+  }
+
+  .second-paragraph {
+    padding-left: 24%;
+    padding-top: 2%;
+    font-size: 30px;
+  }
+
+  .our-services {
+    margin-left: 14%;
+    margin-top: 50px;
+    font-size: 50px;
+  }
+
+  .last-paragraph {
+    padding-left: 33%;
+    font-size: 26px;
+  }
+
+  .packages {
+    margin-left: 73%;
+  }
+
+  .price {
+    display: block;
+  }
+
+  .cards {
+    width: 50rem;
+    margin-left: -17%;
+    padding-bottom: 15%;
+    padding-top: 13%;
+  }
+
+  .card-title {
+    padding-left: 39%;
+    font-size: 60px;
+  }
+
+  .card-text {
+    font-size: 50px;
+    margin-left: 14%;
+  }
+
+  .contact-button {
+    padding: 20px 60px;
+    font-size: 15px;
+    margin-left: 31.5%;
+    margin-bottom: 8%;
+  }
+
+  .card-title-huge-number {
+    font-size: 63px;
+    margin-left: 25%;
+  }
+
+  footer {
+    margin-top: 0;
+    margin-right: -302%;
+  }
+
+  .fa-copyright {
+    margin-top: 5px;
+  }
+
+  .olinetas {
+    margin-left: -8.5%;
+  }
+
+  .fa-instagram {
+    margin-left: -60px;
+  }
+
+  footer {
+    margin-top: 0;
+    margin-right: -218%;
+  }
+
+  .olinetas {
+    margin-left: -8.5%;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .navbar-brand {
+    margin-left: 40%;
+  }
+
+  .navbar-toggler {
+    margin-right: 10%;
+  }
+
+  .navbar-nav {
+    margin-left: 81.5%;
+  }
+
+  a > img {
+    width: 490%;
+  }
+
+  .fa-bars {
+    font-size: 75px;
+  }
+
+  div > p {
+    font-size: 35px;
+  }
+
+  section:nth-child(2) {
+    margin-top: 132px;
+    margin-right: -300%;
+  }
+
+  section:nth-child(3) {
+    margin-top: 132px;
+    margin-right: -300%;
+  }
+
+  .our-team {
+    text-align: center;
+    margin-left: 0%;
+    font-size: 65px;
+  }
+
+  .paragraph {
+    width: 75%;
+    font-size: 0px;
+  }
+
+  .project-name {
+    font-size: 65px;
+  }
+
+  .data {
+    margin-left: 0;
+    font-size: 35px;
+  }
+
+  .second {
+    padding-top: 0;
+  }
+
+  section:nth-child(4) {
+    margin-top: 0;
+    margin-right: -295%;
+  }
+
+  .position-relative {
+    margin-left: 18%;
+    padding-top: 8%;
+  }
+
+  .position-absolute {
+    margin-top: -45%;
+  }
+
+  .fa-user {
+    margin-left: 32%;
+    width: 7.5%;
+  }
+
+  .name {
+    margin-left: 17%;
+    margin-top: 0%;
+    font-size: 40px;
+  }
+
+  .feedback {
+    width: 71%;
+    margin-left: 24%;
+    margin-top: 3%;
+    text-align: left;
+    font-size: 35px;
+  }
+
+  .fa-clock {
+    margin-top: 15%;
+    margin-left: 30%;
+    font-size: 30px;
+  }
+
+  .time {
+    margin-top: 14.7%;
+    margin-left: -7%;
+    font-size: 24px;
+  }
+
+  .more-feedbacks {
+    margin-left: 32.5%;
+    font-size: 24px;
+  }
+
+  section:nth-child(5) {
+    margin-top: 0;
+  }
+
+  .second-paragraph {
+    padding-left: 55%;
+    padding-top: 2%;
+    font-size: 40px;
+  }
+
+  .our-services {
+    margin-left: 30%;
+    margin-top: 50px;
+    font-size: 65px;
+  }
+
+  .last-paragraph {
+    margin-left: 16%;
+    font-size: 35px;
+  }
+
+  .packages {
+    margin-left: 45%;
+  }
+
+  .price {
+    display: block;
+    margin-left: 36%;
+  }
+
+  .cards {
+    width: 50rem;
+    margin-left: -17%;
+    padding-bottom: 15%;
+    padding-top: 13%;
+  }
+
+  .card-title {
+    padding-left: 39%;
+    font-size: 60px;
+  }
+
+  .card-text {
+    font-size: 50px;
+    margin-left: 14%;
+  }
+
+  .contact-button {
+    padding: 20px 60px;
+    font-size: 15px;
+    margin-left: 31.5%;
+    margin-bottom: 8%;
+  }
+
+  .card-title-huge-number {
+    font-size: 63px;
+    margin-left: 25%;
+  }
+
+  footer {
+    margin-top: 0;
+    margin-right: -302%;
+  }
+
+  .last {
+    padding-top: 2%;
+  }
+
+  .fa-copyright {
+    margin-top: 5px;
+  }
+
+  .olinetas {
+    margin-left: -8.5%;
+    margin-top: -10px;
+    font-size: 25px;
+  }
+
+  .fa-instagram {
+    margin-left: -60px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .navbar-brand {
+    margin-left: 40%;
+  }
+
+  .navbar-toggler {
+    margin-right: 10%;
+  }
+
+  .navbar-nav {
+    margin-left: 81.5%;
+  }
+
+  a > img {
+    width: 490%;
+  }
+
+  .fa-bars {
+    font-size: 75px;
+  }
+
+  div > p {
+    font-size: 45px;
+  }
+
+  section:nth-child(2) {
+    margin-top: 132px;
+    margin-right: -300%;
+  }
+
+  section:nth-child(3) {
+    margin-top: 132px;
+    margin-right: -300%;
+  }
+
+  .our-team {
+    text-align: center;
+    margin-left: 0%;
+    font-size: 70px;
+  }
+
+  .project-name {
+    font-size: 65px;
+  }
+
+  .paragraph {
+    width: 75%;
+    font-size: 40px;
+  }
+
+  .data {
+    margin-left: 0;
+    font-size: 30px;
+  }
+
+  .second {
+    padding-top: 0;
+  }
+
+  section:nth-child(4) {
+    margin-top: 0;
+    margin-right: -295%;
+  }
+
+  .position-relative {
+    margin-left: 18%;
+    padding-top: 8%;
+  }
+
+  .position-absolute {
+    margin-top: -45%;
+  }
+
+  .fa-user {
+    margin-left: 32%;
+    width: 7.5%;
+  }
+
+  .name {
+    margin-left: 23%;
+    margin-top: 0%;
+    font-size: 50px;
+  }
+
+  .feedback {
+    width: 71%;
+    margin-left: 24%;
+    margin-top: 3%;
+    text-align: left;
+    font-size: 35px;
+  }
+
+  .fa-clock {
+    margin-top: 15%;
+    margin-left: 30%;
+    font-size: 40px;
+  }
+
+  .time {
+    margin-top: 14%;
+    margin-left: -3%;
+    font-size: 34px;
+  }
+
+  .more-feedbacks {
+    margin-left: 26.5%;
+    font-size: 34px;
+  }
+
+  section:nth-child(5) {
+    margin-top: 0;
+  }
+
+  .second-paragraph {
+    margin-left: 1%;
+    padding-top: 2%;
+    font-size: 40px;
+  }
+
+  .our-services {
+    margin-left: 28%;
+    margin-top: 60px;
+  }
+
+  .last-paragraph {
+    margin-left: 15%;
+    font-size: 36px;
+  }
+
+  .packages {
+    margin-left: 7%;
+  }
+
+  .price {
+    display: block;
+  }
+
+  .cards {
+    width: 50rem;
+    margin-left: -17%;
+    padding-bottom: 20%;
+    padding-top: 13%;
+  }
+
+  .card-title {
+    padding-left: 39%;
+    font-size: 60px;
+  }
+
+  .card-text {
+    font-size: 50px;
+    margin-left: 14%;
+  }
+
+  .contact-button {
+    padding: 20px 60px;
+    font-size: 15px;
+    margin-left: 31.5%;
+    margin-bottom: 8%;
+  }
+
+  .card-title-huge-number {
+    font-size: 63px;
+    margin-left: 25%;
+  }
+
+  footer {
+    margin-top: 0;
+    margin-right: -302%;
+    padding-right: 20%;
+    padding-left: 10%;
+  }
+
+  .last {
+    padding-top: 3%;
+  }
+
+  .fa-copyright {
+    margin-top: 5px;
+  }
+
+  .olinetas {
+    margin-left: -8.5%;
+  }
+
+  .fa-instagram {
+    margin-left: -60px;
+  }
+}

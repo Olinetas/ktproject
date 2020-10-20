@@ -1,0 +1,649 @@
+@font-face {
+    font-family: "Gilroy Light";
+    src: url("//db.onlinewebfonts.com/t/0744a43ed7aac352ec78c1404c890d72.eot");
+    src: url("//db.onlinewebfonts.com/t/0744a43ed7aac352ec78c1404c890d72.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/0744a43ed7aac352ec78c1404c890d72.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/0744a43ed7aac352ec78c1404c890d72.woff") format("woff"), url("//db.onlinewebfonts.com/t/0744a43ed7aac352ec78c1404c890d72.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/0744a43ed7aac352ec78c1404c890d72.svg#Gilroy Light") format("svg");
+}
+@font-face {
+    font-family: "Gilroy ExtraBold"; 
+    src: url("//db.onlinewebfonts.com/t/00d5a78493aed4b11e2584ad7cceee49.eot"); 
+    src: url("//db.onlinewebfonts.com/t/00d5a78493aed4b11e2584ad7cceee49.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/00d5a78493aed4b11e2584ad7cceee49.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/00d5a78493aed4b11e2584ad7cceee49.woff") format("woff"), url("//db.onlinewebfonts.com/t/00d5a78493aed4b11e2584ad7cceee49.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/00d5a78493aed4b11e2584ad7cceee49.svg#Gilroy ExtraBold") format("svg"); 
+}
+
+$dark_grey: #4d4d4d;
+$yellow: #F4C430;
+$light_grey: #F5F6F7;
+$width:1366px;
+$font-family: Gilroy Light;
+$bold: Gilroy ExtraBold; 
+
+body{
+    max-width: 1920px;
+    margin: 0 auto;
+    font-family: $font-family;
+}
+
+nav{
+    margin: 0 auto;
+    background-color: $dark_grey;
+    opacity: 85%;
+}
+nav>div{
+    max-width: $width;
+    margin:auto;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    
+}
+.navbar-brand{
+    margin-left: -14px;
+}
+.navbar-nav{
+    margin-right: -8px;
+}
+header>img{
+    margin-top: -5%;
+    margin-left: -17px;
+}
+
+.list{
+    color: $light_grey;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: capitalize;
+    display: block;
+}
+.list:hover{
+    color: $yellow;
+    border: solid 2px $yellow;
+    padding: 5px 8px 5px 8px;
+    display: block;
+    text-decoration: none;
+}
+.first {
+    max-width: $width;
+    margin: auto;
+}
+.about-us{
+    font-size: 30px;
+    color: $dark_grey;
+    font-family: $bold;
+    text-align: center;
+    padding-top: 184px;
+}
+.about-us-paragraph{
+    font-size: 24px;
+    font-family: $font-family;
+    text-align: center;
+    color: $dark_grey;
+    padding-top: 24px;
+    margin-bottom: 0;
+    padding-bottom: 85px;
+}
+.flex{
+    display: flex;
+}
+.input-group-prepend{
+    padding-left: 115px;
+}
+.form-control{
+    margin-right: 56%;
+}
+.input-group{
+    margin-bottom: 50px;
+}
+span{
+    background-color: $yellow;
+    font-family: $bold;
+    color: $light_grey;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.name{
+    padding: 27px 47px;
+}
+.email {
+    text-align: center;
+    padding: 10px 26px;
+}
+.form{
+    padding-right: 184px;
+    border-color: transparent;
+    background-color: $light_grey;
+}
+.your-message{
+    margin-left: 114px;
+    font-family: $bold;
+    color: $light_grey;
+    font-size: 20px;
+}
+.text{
+    margin-top: -8px;
+}
+.label-message{
+    background-color: $yellow;
+    padding: 21px 344px 21px 13px;
+    border-radius: 5px;
+}
+.message{
+    padding-right: 277px;
+    padding-bottom: 50%;
+    border-color: transparent;
+    background-color: $light_grey;
+}
+.contact-button{
+    margin-left: 113px;
+    margin-top: 50px;
+    border-color: transparent;
+    border-radius: 5px;
+    background-color: $yellow;
+    padding: 16px 35px;
+    font-size: 14px;
+    font-family: $bold;
+    text-transform: uppercase;
+    color: $light_grey;
+}
+.contacts{
+    margin-bottom: 46px;
+    margin-left: 80px;
+    background-color: #F5F6F7;
+    padding-right: 160px;
+    padding-top: 27px;
+    padding-bottom: 12px;
+
+}
+.icons{
+    margin-top: 6px;
+    margin-right: 15px;
+    font-size: 20px;
+    color:$dark_grey;
+}
+.icons-contacts{
+    font-size: 20px;
+    font-family: $font-family;
+    color: $dark_grey;
+}
+.questions-button{
+    margin-top: 35px;
+    margin-left: 79px;
+    padding: 32px 40px;
+    background-color: #D8D9D7;
+    color:$dark_grey;
+    border-color: transparent;
+    border-radius: 5px;
+    font-family: $bold;
+    font-size: 24px;
+}
+footer{
+    background-color: $dark_grey;
+}
+.olinetas{
+    margin-top: -4px;
+}
+.fa-copyright{
+    padding-left: 0;
+    font-size: 14px;
+}
+.last{
+    margin-top: 85px;
+    max-width: $width;
+    padding-top: 27px;
+    padding-bottom: 3px;
+    color: $light_grey;
+    font-family: $font-family;
+    font-size: 14px;
+}
+.float-right{
+    margin-left: 86.5%;
+}
+i{
+    padding-left: 27px;
+    font-size: 14px;
+}
+
+@media only screen and (max-width: 1200px){
+
+    .input-group-prepend{
+        padding-left: 30px;
+    }
+    .label-message{
+        padding: 21px 342px 21px 13px;
+        margin-left: -19%;
+    }
+    .message{
+        margin-left: -19%;
+    }
+    .contact-button{
+        margin-left: 30px;
+    }
+    .float-right{
+        margin-left: 83.5%;
+    }
+}
+
+@media only screen and (max-width: 1024px){
+    .navbar-collapse{
+        margin-right: 2%;
+    }
+    .input-group-prepend{
+        padding-left: 30px;
+    }
+    .label-message{
+        padding: 21px 296px 21px 19px;
+        margin-left: -19%;
+        display: table-caption;
+    }
+    .name{
+        font-size: 19px;
+        padding: 24px 38px;
+    }
+    .email{
+        font-size: 19px;
+        padding: 10px 19px;
+    }
+    .form{
+        margin-top: -16.5%;
+        margin-left: 36%;
+        padding-right: 120px;
+        padding-bottom: 0%;
+    }
+    .your-message{
+        margin-left: 101px;
+        font-size: 19px;
+    }
+    .message{
+        margin-left: -19%;
+        padding-right: 213px;
+    }
+    .contacts{
+        margin-right: 16%;
+    }
+    .contact-button{
+        margin-left: 30px;
+    }
+    .questions-button{
+        margin-right: 16%;
+        padding: 10px 14px;
+    }
+    .float-right{
+        margin-left: 81.5%;
+    }
+}
+
+@media only screen and (max-width: 900px){
+    .navbar-collapse{
+        margin-right: 0%;
+    }
+    .about-us{
+        margin-left: 3%;
+    }
+    .about-us-paragraph{
+        margin-left: 2%;
+    }
+    .input-group-prepend{
+        padding-left: 30px;
+    }
+    .label-message{
+        padding: 8px 272px 8px 19px;
+    }
+    .name{
+        font-size: 18px;
+        padding: 20px 29px;
+    }
+    .email{
+        font-size: 18px;
+        padding: 6px 10px;
+    }
+    .form{
+        margin-top: -16.5%;
+        margin-left: 36%;
+        padding-right: 120px;
+        padding-bottom: 0%;
+    }
+    .your-message{
+        margin-left: 101px;
+        font-size: 19px;
+    }
+    .message{
+        margin-left: -66px;
+        padding-right: 184px;
+    }
+    .contacts{
+        margin-right: 14%;
+        margin-top: 0px;
+        padding-top: 24px;
+        padding-bottom: 7px;
+    }
+    .contact-button{
+        margin-left: 35px;
+    }
+    .icons{
+        font-size: 15px;
+    }
+    .icons-contacts{
+        font-size: 15px;
+    }
+    .questions-button{
+        margin-right: 17%;
+        padding: 6px 14px;
+        font-size: 19px;
+    }
+    footer{
+        margin-right: -3%;
+    }
+    .float-right{
+        margin-left: 79.5%;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .navbar-collapse{
+        margin-right: 0%;
+    }
+    .about-us{
+        margin-left: 7%;
+    }
+    .about-us-paragraph{
+        margin-left: 5%;
+    }
+    .input-group-prepend{
+        padding-left: 30px;
+    }
+    .label-message{
+        padding: 5px 238px 5px 15px;
+    }
+    .name{
+        font-size: 18px;
+        padding:14px 29px;
+    }
+    .email{
+        font-size: 18px;
+        padding: 1px 10px;
+    }
+    .form{
+        margin-top: -16.5%;
+        margin-left: 43%;
+        padding-right: 70px;
+        padding-bottom: 0%;
+    }
+    .your-message{
+        margin-left: 88px;
+        font-size: 19px;
+    }
+    .message{
+        margin-left: -58px;
+        padding-right: 139px;
+    }
+    .contacts{
+        margin-right: 13%;
+        margin-top: -1px;
+        padding-top: 17px;
+        padding-bottom: 5px;
+    }
+    .contact-button{
+        margin-left: 35px;
+    }
+    .icons{
+        font-size: 13px;
+    }
+    .icons-contacts{
+        font-size: 13px;
+        padding-top: 2px;
+    }
+    .questions-button{
+        margin-right: 17%;
+        padding: 6px 14px;
+        font-size: 17px;
+    }
+    footer{
+        margin-right: -9%;
+    }
+    .float-right{
+        margin-left: 77.5%;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .navbar-collapse{
+        margin-right: 0%;
+    }
+    .about-us{
+        margin-left: 13%;
+    }
+    .about-us-paragraph{
+        margin-left: 13%;
+    }
+    .flex{
+        display: block;
+    }
+    .input-group-prepend{
+        padding-left: 30px;
+    }
+    .label-message{
+        padding: 5px 288px 5px 15px;
+    }
+    .name{
+        font-size: 20px;
+        padding: 14px 29px;
+        margin-left: 54%;
+    }
+    .email{
+        font-size: 19px;
+        padding: 2px 10px;
+        margin-left: 56%;
+     }
+    .form{
+        margin-top: -11%;
+        margin-left: 41%;
+        padding-right: 125px;
+        padding-bottom: 0%;
+    }
+    .your-message{
+        margin-left: 166px;
+        font-size: 19px;
+    }
+    .message{
+        margin-left: -67px;
+        padding-right: 197px;
+    }
+    .contacts{
+        margin-right: 6%;
+        margin-top: 47px;
+        padding-top: 17px;
+        padding-bottom: 5px;
+        margin-left: 20%;
+    }
+    .contact-button{
+        margin-left: 200px;
+        margin-bottom: 2%;
+    }
+    .icons{
+        font-size: 30px;
+    }
+    .icons-contacts{
+        font-size: 20px;
+        padding-top: 7px;
+    }
+    .questions-button{
+        padding: 14px 14px;
+        font-size: 17px;
+        margin-left: 30%;
+    }
+    footer{
+        margin-right: -12%;
+    }
+    .float-right{
+        margin-left: 71.5%;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    .navbar-toggler{
+            margin-right: 5%;
+    }
+    .fa-bars {
+        font-size: 40px;
+        padding-left: 8px;
+    }
+    .navbar-nav{
+        margin-left: 81%;
+    }
+    .navbar-collapse{
+        margin-right: 0%;
+    }
+    .about-us{
+        margin-left: 15%;
+    }
+    .about-us-paragraph{
+        margin-left: 15%;
+    }
+    .flex{
+        display: block;
+    }
+    .input-group-prepend{
+        padding-left: 30px;
+    }
+    .label-message{
+        padding: 5px 274px 5px 15px;
+    }
+    .name{
+        font-size: 20px;
+        padding: 14px 29px;
+        margin-left: 6%;
+    }
+    .email{
+        font-size: 19px;
+        padding: 1px 9px;
+        margin-left: 9%;
+     }
+    .form{
+        margin-top: -58px;
+        margin-left: 38%;
+        padding-right: 110px;
+        padding-bottom: 0%;
+    }
+    .your-message{
+        margin-left: 109px;
+        font-size: 19px;
+    }
+    .message{
+        margin-left: -67px;
+        padding-right: 184px;
+    }
+    .contacts{
+        margin-right: 3%;
+        margin-top: 47px;
+        padding-top: 17px;
+        padding-bottom: 5px;
+        margin-left: 20%;
+    }
+    .contact-button{
+        margin-left: 148px;
+        margin-bottom: 2%;
+    }
+    .icons{
+        font-size: 30px;
+    }
+    .icons-contacts{
+        font-size: 20px;
+        padding-top: 7px;
+    }
+    .questions-button{
+        padding: 14px 14px;
+        font-size: 17px;
+        margin-left: 31%;
+    }
+    footer{
+        margin-right: -16%;
+    }
+    .float-right{
+        margin-left: 65.5%;
+    }
+}
+
+@media only screen and (max-width: 320px){
+    .navbar-toggler{
+            margin-right: 2%;
+    }
+    .fa-bars {
+        font-size: 40px;
+        padding-left: 8px;
+    }
+    .navbar-nav{
+        margin-left: 81%;
+    }
+    .navbar-collapse{
+        margin-right: 0%;
+    }
+    .about-us{
+        margin-left: 16%;
+        width: 100%;
+    }
+    .about-us-paragraph{
+        margin-left: 17%;
+        width: 98%;
+    }
+    .flex{
+        display: block;
+    }
+    .input-group-prepend{
+        padding-left: 30px;
+    }
+    .label-message{
+        padding: 5px 221px 5px 15px;
+    }
+    .name{
+        font-size: 20px;
+        padding: 14px 29px;
+        margin-left: -23%;
+    }
+    .email{
+        font-size: 19px;
+        padding: 1px 9px;
+        margin-left: -21%;
+     }
+    .form{
+        margin-top: -58px;
+        margin-left: 49%;
+        padding-right: 46px;
+        padding-bottom: 0%;
+    }
+    .your-message{
+        margin-left: 61px;
+        font-size: 19px;
+    }
+    .message{
+        margin-left: -55px;
+        padding-right: 119px;
+    }
+    .contacts{
+        margin-right: -24%;
+        margin-top: 47px;
+        padding-top: 17px;
+        padding-bottom: 5px;
+        margin-left: 8%;
+    }
+    .contact-button{
+        margin-left: 71px;
+        margin-bottom: 2%;
+        width: 80%;
+    }
+    .icons{
+        font-size: 30px;
+    }
+    .icons-contacts{
+        font-size: 20px;
+        padding-top: 7px;
+    }
+    .questions-button{
+        padding: 14px 14px;
+        font-size: 17px;
+        margin-left: 22%;
+        width: 85%;
+    }
+    footer{
+        margin-right: -30%;
+    }
+    .float-right{
+        margin-left: 53.5%;
+    }
+}

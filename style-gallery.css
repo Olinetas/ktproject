@@ -1,0 +1,396 @@
+@font-face {
+  font-family: "Gilroy Light";
+  src: url("//db.onlinewebfonts.com/t/0744a43ed7aac352ec78c1404c890d72.eot");
+  src: url("//db.onlinewebfonts.com/t/0744a43ed7aac352ec78c1404c890d72.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/0744a43ed7aac352ec78c1404c890d72.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/0744a43ed7aac352ec78c1404c890d72.woff") format("woff"), url("//db.onlinewebfonts.com/t/0744a43ed7aac352ec78c1404c890d72.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/0744a43ed7aac352ec78c1404c890d72.svg#Gilroy Light") format("svg");
+}
+@font-face {
+  font-family: "Gilroy ExtraBold";
+  src: url("//db.onlinewebfonts.com/t/00d5a78493aed4b11e2584ad7cceee49.eot");
+  src: url("//db.onlinewebfonts.com/t/00d5a78493aed4b11e2584ad7cceee49.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/00d5a78493aed4b11e2584ad7cceee49.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/00d5a78493aed4b11e2584ad7cceee49.woff") format("woff"), url("//db.onlinewebfonts.com/t/00d5a78493aed4b11e2584ad7cceee49.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/00d5a78493aed4b11e2584ad7cceee49.svg#Gilroy ExtraBold") format("svg");
+}
+body {
+  max-width: 1920px;
+  margin: 0 auto;
+  font-family: Gilroy Light;
+}
+
+nav {
+  margin: 0 auto;
+  background-color: #4d4d4d;
+  opacity: 85%;
+}
+
+nav > div {
+  max-width: 1366px;
+  margin: auto;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+.navbar-brand {
+  margin-left: -14px;
+}
+
+.navbar-nav {
+  margin-right: -8px;
+}
+
+header > img {
+  margin-top: -5%;
+  margin-left: -17px;
+}
+
+.list {
+  color: #F5F6F7;
+  font-weight: bold;
+  font-size: 16px;
+  text-transform: capitalize;
+  display: block;
+}
+
+.list:hover {
+  color: #F4C430;
+  border: solid 2px #F4C430;
+  padding: 5px 8px 5px 8px;
+  display: block;
+  text-decoration: none;
+}
+
+.first {
+  max-width: 1366px;
+  margin: auto;
+}
+
+.about-us {
+  text-transform: capitalize;
+  font-size: 30px;
+  color: #4d4d4d;
+  font-family: Gilroy ExtraBold;
+  text-align: center;
+  padding-top: 184px;
+}
+
+.about-us-paragraph {
+  font-size: 24px;
+  font-family: Gilroy Light;
+  text-align: center;
+  color: #4d4d4d;
+  padding-top: 24px;
+  margin-bottom: 0;
+  padding-bottom: 85px;
+}
+
+.gallery {
+  margin-bottom: 16px;
+}
+
+img {
+  position: relative;
+  width: 103%;
+}
+
+.share {
+  position: absolute;
+  margin-left: 86.5%;
+  width: 4%;
+  margin-top: -6.5%;
+}
+
+.col-12 {
+  margin-left: 0px;
+  margin-right: -3px;
+}
+
+footer {
+  background-color: #4d4d4d;
+}
+
+.olinetas {
+  margin-top: -4px;
+}
+
+.fa-copyright {
+  padding-left: 0;
+  font-size: 14px;
+}
+
+.last {
+  margin-top: 85px;
+  max-width: 1366px;
+  padding-top: 27px;
+  padding-bottom: 3px;
+  color: #F5F6F7;
+  font-family: Gilroy Light;
+  font-size: 14px;
+}
+
+.float-right {
+  margin-left: 86.5%;
+}
+
+i {
+  padding-left: 27px;
+  font-size: 14px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .navbar-collapse {
+    margin-right: 0%;
+  }
+
+  .about-us {
+    margin-left: 15%;
+  }
+
+  .about-us-paragraph {
+    margin-left: 13%;
+  }
+
+  .gallery {
+    padding-left: 15%;
+  }
+
+  footer {
+    background-color: #4d4d4d;
+    margin-right: -14.5%;
+  }
+
+  .float-right {
+    margin-left: 86%;
+  }
+
+  .share {
+    margin-left: 85.5%;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  body {
+    max-width: 1920px;
+    margin: 0 auto;
+    font-family: Gilroy Light;
+  }
+
+  .navbar-collapse {
+    margin-right: 0;
+  }
+
+  .about-us {
+    margin-left: 13%;
+  }
+
+  .about-us-paragraph {
+    margin-left: 12%;
+  }
+
+  .picture {
+    margin-left: 3px;
+  }
+
+  .gallery {
+    padding-left: 14%;
+  }
+
+  .share {
+    position: absolute;
+    margin-left: 81.5%;
+    width: 4%;
+    margin-top: -6.5%;
+  }
+
+  footer {
+    background-color: #4d4d4d;
+    margin-right: -14.5%;
+  }
+
+  .float-right {
+    margin-left: 82.5%;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .navbar-collapse {
+    margin-right: 0;
+  }
+
+  .about-us {
+    margin-left: 15%;
+  }
+
+  .about-us-paragraph {
+    margin-left: 15%;
+  }
+
+  .picture {
+    margin-left: 0;
+    margin-bottom: 2%;
+  }
+
+  .gallery {
+    padding-left: 14%;
+  }
+
+  .share {
+    position: absolute;
+    margin-left: 87.5%;
+    width: 4%;
+    margin-top: -6.5%;
+  }
+
+  footer {
+    background-color: #4d4d4d;
+    margin-right: -14.5%;
+  }
+
+  .float-right {
+    margin-left: 81.5%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .float-right {
+    margin-left: 78.5%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .navbar-collapse {
+    margin-right: 0;
+  }
+
+  .navbar-nav {
+    margin-left: 0%;
+  }
+
+  .about-us {
+    margin-left: 15%;
+  }
+
+  .about-us-paragraph {
+    margin-left: 15%;
+  }
+
+  .picture {
+    margin-left: 0;
+    margin-bottom: 0%;
+    margin-top: -4%;
+  }
+
+  img {
+    margin-top: 10%;
+  }
+
+  .gallery {
+    padding-left: 14%;
+    margin-top: 0x;
+  }
+
+  .share {
+    position: absolute;
+    margin-left: 89.5%;
+    width: 4%;
+    margin-top: -6.5%;
+  }
+
+  footer {
+    background-color: #4d4d4d;
+    margin-right: -14.5%;
+  }
+
+  .float-right {
+    margin-left: 71.5%;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .navbar-toggler {
+    margin-right: 5%;
+  }
+
+  .fa-bars {
+    font-size: 40px;
+    padding-left: 8px;
+  }
+
+  .navbar-nav {
+    margin-left: 81%;
+  }
+
+  .about-us {
+    margin-left: 16%;
+  }
+
+  .about-us-paragraph {
+    margin-left: 18%;
+  }
+
+  img {
+    margin-top: 22%;
+    margin-left: 1%;
+  }
+
+  .gallery {
+    padding-left: 14%;
+    margin-top: 0x;
+  }
+
+  .share {
+    position: absolute;
+    margin-left: 87.5%;
+    width: 4%;
+    margin-top: -6.5%;
+  }
+
+  footer {
+    background-color: #4d4d4d;
+    margin-right: -17.5%;
+  }
+
+  .float-right {
+    margin-left: 65.5%;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .navbar-toggler {
+    margin-right: 5%;
+  }
+
+  .fa-bars {
+    font-size: 40px;
+    padding-left: 8px;
+  }
+
+  .navbar-nav {
+    margin-left: 78%;
+  }
+
+  .about-us {
+    margin-left: 33%;
+  }
+
+  .about-us-paragraph {
+    margin-left: 33%;
+  }
+
+  img {
+    width: 125%;
+    margin-top: 22%;
+    margin-left: -1%;
+  }
+
+  .gallery {
+    padding-left: 14%;
+    margin-top: 0x;
+  }
+
+  .share {
+    position: absolute;
+    margin-left: 87.5%;
+    width: 4%;
+    margin-top: -6.5%;
+  }
+
+  footer {
+    background-color: #4d4d4d;
+    margin-right: -30.5%;
+  }
+
+  .float-right {
+    margin-left: 53.5%;
+  }
+}
